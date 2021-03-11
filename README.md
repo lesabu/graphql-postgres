@@ -6,7 +6,7 @@ following this [tutorial](https://ednsquare.com/story/how-to-connect-graphql-and
 
 Create a database (locally)
 
-### create a postgres database (assumes postgres is installed)
+### create a postgres database (assumes postgres is installed locally)
 
 `createdb test`
 
@@ -26,4 +26,4 @@ DATABASE_URL=postgres:postgres:postgres@localhost:{local_port}/{databas_name}
 
 ### install
 
-run `yarn install` to load all packages and then `yarn db:setup` to pollute the `test` database with the tabels and fielsa provided inside `sql/setup.sql`
+run `yarn install` to load all packages and then `yarn db:setup` to pollute the `test` database with the tabels and fields provided inside `sql/setup.sql`
