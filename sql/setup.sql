@@ -14,7 +14,7 @@ CREATE TABLE emails (
     "primary" BOOLEAN DEFAULT false
 );
 
--- inster strings MUST have single quotes
+-- INSERT strings MUST have single quotes
 
 INSERT INTO people (firstname, lastname) VALUES (
     'Leslie', 'Büttel'
