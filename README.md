@@ -18,7 +18,7 @@ Create a database (locally)
 
 ### .env
 
-create an `.env` file to connect to the database. If there is no User and Password setup for the database, then the default login is as followed:
+create an `.env` file to connect to the database. If there is no User and Password setup for the database, then the default login is as followed (locally):
 
 ```
 DATABASE_URL=postgres:postgres:postgres@localhost:{local_port}/{databas_name}
