@@ -16,4 +16,14 @@ Create a database (locally)
 
 ## Setup
 
+### .env
+
+create an `.env` file to connect to the database. If there is no User and Password setup for the database, then the default login is as followed:
+
+```
+DATABASE_URL=postgres:postgres:postgres@localhost:{local_port}/{databas_name}
+```
+
+### install
+
 run `yarn install` to load all packages and then `yarn db:setup` to pollute the `test` database with the tabels and fielsa provided inside `sql/setup.sql`
